@@ -6,7 +6,7 @@ const EventDetails = () => {
 
     const { id } = useParams();
 
-    const { data, loading, error } = useFetch(`http://localhost:3000/events/${ id }`);
+    const { data, loading, error } = useFetch(`https://bi-assignment-1-backend-git-main-solankisandy168-2703s-projects.vercel.app/events/${ id }`);
 
     console.log(data);
 
