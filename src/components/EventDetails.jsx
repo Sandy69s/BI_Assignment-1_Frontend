@@ -6,7 +6,7 @@ const EventDetails = () => {
 
     const { id } = useParams();
 
-    const { data, loading, error } = useFetch(`https://bi-assignment-1-backend-sigma.vercel.app/events/${ id }`);
+    const { data, loading, error } = useFetch(`https://bi-assignment-1-backend-sigma.vercel.app/events/${id}`);
 
     console.log(data);
 
