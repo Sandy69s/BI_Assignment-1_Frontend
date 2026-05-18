@@ -4,7 +4,7 @@ import useFetch from "../useFetch";
 
 const Events = ( { title } ) => {
 
-    const { data, loading, error } = useFetch("https://bi-assignment-1-backend-git-main-solankisandy168-2703s-projects.vercel.app/events");
+    const { data, loading, error } = useFetch("https://bi-assignment-1-backend-sigma.vercel.app/events");
 
     const [ eventType, setEventType ] = useState("");
 
